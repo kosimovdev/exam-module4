@@ -1,0 +1,7 @@
+.card {
+  &:hover {
+    .hoverImg {
+      display: block !important;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.bgIntro {
+  background: url(../../assets/images/bgHome.jpg) no-repeat center top / cover;
+  padding: 40px 80px;
+}
+
+.slick-slider {
+  .slick-dots {
+    .slick-active {
+      button {
+        background-color: black !important;
+      }
+    }
+  }
+}
+
+

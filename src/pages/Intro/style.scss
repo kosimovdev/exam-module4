@@ -1,0 +1,26 @@
+.bgIntro {
+  background: url(../../assets/images/bgImg.png) no-repeat center top / cover;
+  padding: 40px 80px;
+}
+
+.slick-slider {
+  .slick-dots {
+    .slick-active {
+      button {
+        background-color: black !important;
+      }
+    }
+  }
+}
+
+.wrapper {
+  .flex {
+    .intro-box {
+      background: url(../../assets/images/bgIntro-1.png) no-repeat center top /
+        cover;
+      &:nth-child(2) {
+        background: url(../../assets/images/bgIntro-2.png) no-repeat center top / cover;
+      }
+    }
+  }
+}
