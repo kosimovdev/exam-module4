@@ -10,7 +10,7 @@ const Index = () => {
 
   const [counter, setCounter] = useState(0);
   const wrapperStyle = {
-    transform:`translateX(-${counter * 300}px)`
+    transform:`translateX(-${counter * 280}px)`
   }
   const nextSlide = () => {
     setCounter((nextCounter) =>
@@ -18,7 +18,7 @@ const Index = () => {
     );
     if (counter == 4) {
       setCounter(0);
-      wrapper.classList.add(`translate-x-[2400px]`);
+      wrapper.classList.add(`translate-x-[2240px]`);
     }
   };
 

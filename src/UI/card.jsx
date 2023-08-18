@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const card = ({ state: { image, title, price, oldPrice }, singleId , styleText }) => {
   return (
-    <div className="card min-w-[265px] mb-10 h-[366px] hover:shadow-lg hover:rounded-md duration-200 relative">
+    <div className="card min-w-[260px] mb-10 h-[366px] hover:shadow-lg hover:rounded-md duration-200 relative">
       <div className="cardImg">
         <img className="object-contain w-full" src={image} alt="img" />
       </div>
